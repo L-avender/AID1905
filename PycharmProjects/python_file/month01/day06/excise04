@@ -1,0 +1,14 @@
+# set01=set()
+# while True:
+#     string=input("请输入字符串")
+#     if string=="":
+#         break
+#     set01.add(string)
+# print(set01)
+
+list01=["cc","lb","sq"]
+list02=["cc","lb","zf","gy"]
+set_m=set(list01)
+set_p=set(list02)
+set_mp = set_m & set_p
+print(set_mp)

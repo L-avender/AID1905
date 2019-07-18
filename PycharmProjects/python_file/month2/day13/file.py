@@ -1,0 +1,5 @@
+f=open("exc.txt","r")
+a=f.readline()
+print(a)
+f.flush()
+f.close()

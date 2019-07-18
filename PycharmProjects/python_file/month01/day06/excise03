@@ -1,0 +1,14 @@
+list01=["wj","zm","zzr"]
+dict01={}
+for name in list01:
+    dict01[name]=len(name)
+print(dict01)
+
+list02=["wj","zm","zzr"]
+list03=[101,102,103]
+dict02={}
+for i in range(len(list02)):
+    dict02[list02[i]]=list03[i]
+    print(dict02
+          )
+
