@@ -23,9 +23,10 @@ list03=[item for item in list01 if item %2==0]
 print(list03)
 #将list01中所有的偶数大于5的数字增加1后存入lisy04中
 list04=[]
-for item in list01:
-    if item % 2==0 and item>5:
-        list04.append(item+1)
+# for item in list01:
+#     if item % 2==0 and item>5:
+#         list04.append(item+1)
+list04=[item+1 for item in list01 if item % 2==0 and item>5]
 print(list04)
 
 
